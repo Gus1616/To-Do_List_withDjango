@@ -1,3 +1,6 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
 
 {% if request.user.is_authenticated %}
 
@@ -25,7 +28,7 @@
         <th>Item</th>
         <th></th>
         <th></th>
-
+return
 
     </tr>
 
@@ -44,3 +47,9 @@
 
     {% endfor %}
 </table>
+
+
+{% endblock content %}
+
+
+
